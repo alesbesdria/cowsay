@@ -1,7 +1,7 @@
 import "dotenv/config";
 
 // console.log(`I am ${process.env.NAME}, wilder in ${process.env.CAMPUS}`);
-const  cowsay  =  require ( "cowsay" ) ;
+import  cowsay  from  "cowsay" ;
 
 console.log ( cowsay.say ( { 
     text : `I am ${process.env.NAME}, wilder in ${process.env.CAMPUS}` , 
